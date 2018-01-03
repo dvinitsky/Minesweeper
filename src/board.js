@@ -7,6 +7,7 @@ export class Board {
   }
 
   get playerBoard(){
+
     return this._playerBoard;
   }
 
@@ -99,4 +100,5 @@ export class Board {
     }
     return board;
   }
+
 }
